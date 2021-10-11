@@ -1,0 +1,336 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+	/* banner part  */
+	.bttnclass:focus {
+		outline: none;
+	}
+
+	.banner-text h3 {
+		font-size: 36px;
+		line-height: 43px;
+	}
+
+	.navbar-brand img {
+		height: 80%;
+		width: 70%;
+		margin-left: 15px;
+	}
+
+	.navbar-nav {
+		text-align: center;
+		background: tomato;
+	}
+
+	.nav-link:hover {
+		color: turquoise;
+	}
+
+	.nav-link::after {
+		visibility: hidden;
+	}
+
+	.banner-overlay {
+		padding: 130px 0px 22px 0px;
+	}
+
+	.banner-text img {
+		height: 20%;
+		width: 60%;
+	}
+
+	.banner-buttone a:nth-child(1) {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	/* banner part  */
+
+
+	/* just food  */
+
+	.just-food-heading h3 {
+		font-size: 28px;
+	}
+
+	#just-foodhead {
+		background: url(../images/justpatter.png) no-repeat center;
+		background-size: cover;
+		padding: 46px 0px 10px 0px;
+	}
+
+	.ingredient {
+		padding: 28px 0px;
+		background: transparent;
+	}
+
+	.ingredient-overlay {
+		background: rgba(0, 0, 0, 0.7);
+		padding: 30px 40px;
+	}
+
+	.ingredient-con {
+		padding: 0;
+	}
+
+	#ingredienthead {
+		margin: 0;
+		padding: 0;
+	}
+
+	/* just food  */
+
+
+	/* ingredient  */
+	.ingredient h3 {
+		font-size: 32px;
+	}
+
+	.ingredient-overlay {
+		padding: 30px 18px;
+	}
+
+	/* ingredient  */
+
+	/* appetuser */
+	#userhead {
+		padding: 54px 0px;
+	}
+
+	.des-text p {
+		font-size: 12px;
+		padding-top: 8px;
+		text-align: center;
+	}
+
+	.scondpart {
+		margin-top: 60px;
+	}
+
+	.guest-overlay {
+		background: hsla(0, 0%, 0%, 0.7);
+		padding: 45px 0px;
+	}
+
+	.guest-bg {
+		padding: 0px;
+	}
+
+	.guest-text {
+		background: transparent;
+		padding: 0;
+	}
+
+	.guest-text p {
+		line-height: 24px;
+		padding: 0;
+	}
+
+	.guest-text h3 {
+		font-size: 32px;
+	}
+
+	/* appetuser */
+
+
+
+	/* jrf part  */
+	.jrf-main-form h3 {
+		font-size: 26px;
+	}
+
+	#jrf-form {
+		padding: 60px 0px;
+	}
+
+	.formbttn button {
+		margin-left: 0px;
+	}
+
+	.main-form {
+		text-align: center;
+	}
+
+	.main-form input {
+		width: 100%;
+	}
+
+	.main-form p {
+		margin-bottom: 0%;
+		margin-top: 10px;
+	}
+
+	.footer-text {
+		margin-top: 47px;
+	}
+
+	.footer-text img {
+		padding-bottom: 17px;
+	}
+
+	.allicon {
+		margin-top: 17px;
+	}
+
+	.mtpad img {
+		margin-top: 20px;
+	}
+
+	.des-text p {
+		text-align: left;
+	}
+
+	/* jrf part  */
+
+
+}
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	/* bannner part  */
+	.banner-text h3 {
+		font-size: 51px;
+		line-height: 51px;
+	}
+
+	.banner-overlay {
+		padding: 152px 0px 70px 0px;
+	}
+
+	.banner-text img {
+		margin: 55px 0px;
+	}
+
+	.banner-buttone a {
+		width: 163px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 13px;
+	}
+
+	.banner-buttone a:nth-child(1) {
+		margin-right: 10px;
+	}
+
+	.banner-text img {
+		margin: 29px 0px;
+		max-width: 165px;
+	}
+
+	.navbar-nav {
+		text-align: center;
+		background: tomato;
+	}
+
+	.navbar-toggler:focus {
+		outline: none;
+	}
+
+	.nav-link::before {
+		content: '';
+		width: 100%;
+		height: 2px;
+		position: absolute;
+		top: 1px;
+		left: 0;
+		background: #fff;
+		transition: .4s;
+		visibility: hidden;
+		opacity: 0;
+	}
+
+	.nav-link:hover::before {
+		opacity: 1;
+		transform: translateY(10px);
+		visibility: visible;
+	}
+
+
+	.nav-link::after {
+		top: 44px;
+		width: 100%;
+		visibility: hidden;
+		opacity: 0;
+	}
+
+	.nav-link:hover::after {
+		opacity: 1;
+		transform: translateY(-10px);
+		visibility: visible;
+
+	}
+
+	.just-food-heading p {
+		padding-bottom: 0px;
+	}
+	.just-food-heading img {
+	padding-bottom: 0px;
+}
+#ingredienthead {
+	padding:0px;
+}
+.ingredient-overlay{
+	padding: 80px 0px;
+	background: rgba(0, 0, 0, 0.7);
+}
+.ingredient {
+	padding: 0;
+	background: transparent;
+}
+.ingredient p {
+	padding: 0px 40px 50px 40px;
+}
+.scondpart{
+	margin-top: 40px;
+}
+
+
+
+.guest-bg {
+	padding: 0;
+}
+.guest-overlay {
+	background: #000000a1;
+	padding: 100px 0px;
+}
+.guest-text {
+	background: transparent;
+	padding: 0;
+}
+.guest-text p {
+	padding: 0;
+}
+.main-form input {
+	width: 100%;
+}
+.formbttn button {
+	width: 95%;
+}
+.main-form p {
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+	/* bannner part  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

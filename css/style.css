@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    line-height: .8;
+    margin: 0;
+    padding: 0;
+}
+ul,
+ol {
+    list-style-type: none;
+}
+
+.clr {
+    clear: both;
+}
+
+
+
+/* ================================
+             banner part
+   ================================= */
+
+
+/* main menu  */
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 12;
+
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-link{
+    font-weight: 700;
+    font-size: 21px;
+    color: white;
+    text-transform: capitalize;
+    display: inline-block;
+    font-family: 'Gentium Book Basic', serif;
+    position: relative;
+    transition: .4s;
+    
+}
+
+.nav-link::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    top:-32px;
+    left: 0;
+    background: #fff;
+    transition: .4s;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+/* main menu  */
+
+
+/* bannaer img part  */
+.banner-img{
+    background: url(../images/banner-img.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner-overlay{
+    background: hsla(0, 0%, 0%, 0.4);
+    padding: 214px 0px 140px 0px;
+}
+/* bannaer img part  */
+
+/* banner text  */
+.banner-text img{
+    margin: 30px 0px;
+}
+.banner-text h3{
+    font-weight: 400;
+    font-size: 90px;
+    font-family: 'Yeseva One', cursive;
+    color: white;
+    line-height: 100px;
+}
+
+/* banner button  */
+.banner-buttone a:nth-child(1){
+    margin-right: 30px;
+}
+.banner-buttone a{
+    width: 230px;
+    height: 60px;
+    background: hsla(0, 0%, 0%, 0.3);
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    border: 1.5px solid black;
+    transition: .4s;
+}
+.banner-buttone a:hover{
+    background: hsla(0, 0%, 100%, 0.3);
+    border: 1.5px solid #fff;
+}
+/* banner button  */
+
+
+/* banner text  */
+
+/* ================================
+             banner part
+   ================================= */
+
+
+
+ /* ===========================
+        just the right food
+  ============================== */
+
+  #just-foodhead{
+      background: url(../images/justpatter.png);
+      padding: 80px 0px 60px 0px;
+  }
+
+/* left head  */
+.just-food-heading h3{
+    font-weight: 400;
+    font-size: 33px;
+    color: #cc9900;
+    font-family: 'Yeseva One', cursive;
+
+}
+.just-food-heading p{
+    font-weight: 400;
+    font-size: 16px;
+    color:black;
+    line-height: 24px;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 50px;
+}
+.just-food-heading img{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.sigimg img{
+    margin-left: 80px;
+}
+/* left head  */
+
+ /* ============================
+        just the right food
+  ============================= */
+
+
+
+/* ===============================
+        ingredient
+================================== */
+#ingredienthead{
+    background: url(../images/ingredientbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 80px 0px;
+}
+
+/* shape  */
+.ingredient{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 80px 40px;
+    text-align: center;
+}
+.ingredient h3{
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+    font-family: 'Yeseva One', cursive;
+}
+.ingredient img{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.ingredient p{
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    padding: 0px 10px 50px 10px;
+}
+
+.ingbottom-img img{
+    padding: 0px 10px;
+}
+/* shape  */
+/* ===============================
+        ingredient
+================================== */
+
+
+/* ==================================
+            user part start
+=================================== */
+#userhead{
+    background: url(../images/justpatter.png) center no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+/* head user  */
+.user-item h3{
+    font-weight: 400;
+    font-size: 36px;
+    color: #cc9900;
+    text-transform: capitalize;
+    font-family: 'Yeseva One', cursive;
+}
+.user-item img{
+    padding: 15px 0px 0px 0px;
+}
+.price-user{
+    display: flex;
+    justify-content: space-between;
+}
+.price-user h3{
+    font-weight: 400;
+    font-size: 21px;
+}
+.des-text p{
+    font-weight: 300;
+    font-size: 13px;
+    padding-top: 25px;
+    
+}
+.userdw-text{
+    padding-top: 35px;
+    
+}
+.price-user{
+    border-bottom: 1px solid #cc9900;
+    padding-bottom: 9px;
+}
+
+.user-item:nth-child(2){
+    margin-top: 80px;
+}
+/* head user  */
+/* ==================================
+            user part end
+=================================== */
+
+
+
+/* ====================================
+            guest revew start
+======================================= */
+.guest-bg{
+    background: url(../images/guest-revew.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+.guest-text{
+    background: rgba(0, 0, 0, 0.8);
+    padding: 80px 30px;
+}
+.guest-text h3{
+    font-weight: 400;
+    font-size: 36px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Yeseva One', cursive;
+}
+.guest-text img{
+    padding: 15px 0px 25px 0px;
+}
+.guest-text p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Gentium Book Basic', serif;
+    line-height: 45px;
+    padding: 0px 88px;
+}
+.guest-text h6{
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Gentium Book Basic', serif;
+    
+}
+
+/* ====================================
+            guest revew end
+======================================= */
+
+
+
+
+/* ======================================
+      just right food form start
+======================================= */
+#jrf-form{
+    padding: 100px 0px;
+}
+
+.jrf-main-form h3{
+    font-weight: 400;
+    font-size: 36px;
+    color: #cc9900;
+    text-transform: capitalize;
+    font-family: 'Yeseva One', cursive;
+}
+.jrf-main-form img{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.jrf-main-form p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Lato', sans-serif;
+    padding: 0px 10px;
+}
+.main-form input:focus{
+    outline: none;
+}
+.main-form input::placeholder{
+    color: #7c7c7c;
+    text-transform: capitalize;
+}
+.main-form input{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+     border: 1px solid #cc9900;
+     color: #cc9900;
+   
+}
+
+.main-form p{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 7px;
+    text-transform: capitalize;
+    color: #cc9900;
+}
+
+.fbmt{
+    padding-top: 25px;
+}
+
+.formbttn button{
+    border: none;
+    padding: 8px 0px;
+    width: 100%;
+    background: #cc9900ce;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+/* ======================================
+      just right food form end
+======================================= */
+
+
+/* ======================================
+            footer part
+======================================= */
+#footerhead{
+    padding: 50px 0px;
+    background: #191919;
+}
+
+.footer-text h3{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 21px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.footer-text img{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.middleimgshape img{
+    width: 55%;
+}
+.footer-text  p{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.ftpb p{
+    margin-bottom: 0px;
+}
+
+.last-p p{
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0px 20px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.allicon{
+    margin-top: 40px;
+}
+.allicon i{
+    color: white;
+    margin: 5px;
+}
+/* ======================================
+            footer part
+======================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
